@@ -1,7 +1,6 @@
 """
 A Python interface to the CHIANTI atomic database
 """
-import logging
 
 # Licensed under a 3-clause BSD style license - see LICENSE.rst
 # ----------------------------------------------------------------------------
@@ -17,5 +16,3 @@ if not _ASTROPY_SETUP_:
     from .ion import *
     from .collections import *
     from .element import *
-
-log = logging.getLogger()
